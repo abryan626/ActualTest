@@ -1,0 +1,35 @@
+Andrew@DESKTOP-IU7AQT8 MINGW64 /d/test folder/Bootcamp stuff
+$ git init
+Initialized empty Git repository in D:/test folder/Bootcamp stuff/.git/
+
+Andrew@DESKTOP-IU7AQT8 MINGW64 /d/test folder/Bootcamp stuff (master)
+$ git add -A
+
+Andrew@DESKTOP-IU7AQT8 MINGW64 /d/test folder/Bootcamp stuff (master)
+$ git commit -m "first push"
+[master (root-commit) 028d81f] first push
+ 3 files changed, 295 insertions(+)      
+ create mode 100644 github/index.html    
+ create mode 100644 index.js
+ create mode 100644 js2.txt
+
+Andrew@DESKTOP-IU7AQT8 MINGW64 /d/test folder/Bootcamp stuff (master)
+$ git branch -M main
+
+Andrew@DESKTOP-IU7AQT8 MINGW64 /d/test folder/Bootcamp stuff (main)
+$ git remote add origin https://github.com/abryan626/Test.git
+
+Andrew@DESKTOP-IU7AQT8 MINGW64 /d/test folder/Bootcamp stuff (main)
+$ git push -u origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 2.78 KiB | 2.78 MiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/abryan626/Test.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Andrew@DESKTOP-IU7AQT8 MINGW64 /d/test folder/Bootcamp stuff (main)
+$
